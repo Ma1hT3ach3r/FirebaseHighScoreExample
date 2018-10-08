@@ -21,11 +21,12 @@ function setup() {
   submitButton.mousePressed(submitScore);
 
   var config = {
-    apiKey: "AIzaSyDsJ73sg9CjbMj08ibW8KuTYQ4WfV3faSM",
-    authDomain: "my-not-awesome-project.firebaseapp.com",
-    databaseURL: "https://my-not-awesome-project.firebaseio.com",
-    storageBucket: "my-not-awesome-project.appspot.com",
-    messagingSenderId: "583703514528"
+     apiKey: "AIzaSyCpc62qCavkQL38Cy44h2dyDMAIA9u0sW8",
+    authDomain: "highscoreexample.firebaseapp.com",
+    databaseURL: "https://highscoreexample.firebaseio.com",
+    projectId: "highscoreexample",
+    storageBucket: "highscoreexample.appspot.com",
+    messagingSenderId: "173504280108"
   };
   firebase.initializeApp(config);
   database = firebase.database();
